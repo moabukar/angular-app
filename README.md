@@ -35,4 +35,6 @@ docker run -p 4201:4200 ang-app
 
 kubectl apply -f k8s/
 
+Note: Ingress config works with "/" path but not with "/angular" or "/ang" or "/test". Not sure why...
+
 ```
